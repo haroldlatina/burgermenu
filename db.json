@@ -1,14 +1,22 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "items": [
+    { "id": 1, "name": "Burger (Regular)", type: "sandwich" },
+    { "id": 2, "name": "Burger (Special)", type: "sandwich" },
+    { "id": 3, "name": "Hotdog Sandwhich", type: "sandwich" },
+    { "id": 4, "name": "Special Burger", type: "sandwich" },
+    { "id": 5, "name": "Ham Sandwich", type: "sandwich" },
+    { "id": 6, "name": "Chicken Sandwich", type: "sandwich" },
+    { "id": 7, "name": "Chicken Sandwich", type: "sandwich" },
+    { "id": 8, "name": "Sphagetti", type: "pasta" },
+    { "id": 9, "name": "Carbonara", type: "pasta" },
+    { "id": 10, "name": "Pesto Pasta", type: "pasta" },
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "profile": {
-    "name": "typicode"
+    "name": "Harold Latina",
+    "role": "Guest"
   }
 }
